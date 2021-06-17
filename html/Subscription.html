@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LetFlix</title>
+    <link rel= "icon" href="../Assets/Icon.png">
+    <script src="../js/Subscription.js"></script>
+    <link rel="stylesheet" href="../css/Subscription.css">
+</head>
+<body>
+    <div class="Dramas">
+        <div class="navbar-container">
+            <div class="navbar-background">
+
+            </div>
+        
+            <div class="navbar">
+        
+                <div class="component-1">
+                    <a href="#"><img src="../Assets/Logo HCI Putih.png" width="150px" height="70px"> </a>
+                    </div>
+
+                    <div class="component-2">
+                        <a href="home.html">Home</a>
+                        <a href="dramas.html">Dramas</a>
+                        <a href="about.html">About</a>
+                        <a href="plans.html">Plans</a>
+                    </div>
+
+                    <div class="component-3">
+                        <div class="button1">
+                            <a href="Subscription.html">Subscription</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="register">
+        <div class="background-register">
+            <div class="regis">Subscription Menu</div>
+            <div class="form" id ="form">
+                <form method="post">
+                    <div class="Form">
+                        <label>Email</label>
+                        <input type="text" id="email" class="kotak">
+                    </div>
+
+                    <div class="Form">
+                        <label">Password</label>
+                        <input type="password" id="password" class="kotak">
+                    </div>
+
+                    <div class="Form">
+                        <label">Gender</label>
+                        <input type="radio" name="gender" id="mgender">
+                        <label>Male</label>
+                        <input type="radio" name="gender" id="fgender">
+                        <label>Female</label>
+                    </div>
+
+                    <div class="Form">
+                        <label">Chosen Plan</label>
+                        <select name="plan" id="plan">
+                            <option>Choose</option>
+                            <option value="bronze">Bronze</option>
+                            <option value="silver">Silver</option>
+                            <option value="gold">Gold</option>
+                        </select>
+                    </div>
+
+                    <div class="Form">
+                        <input type="checkbox" id="agreement">
+                        <label class="textagree">I Agree with the Terms and Conditions</label>
+                    </div>
+                </form>
+                <button type="submit" onclick="validate()">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

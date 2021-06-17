@@ -1,0 +1,522 @@
+body{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Bagian Header + Navbar */
+.part1{
+    object-fit: cover;
+    height: 90vh;
+    background-size: 100% 100%;
+    background-position: center ;
+    background-attachment: fixed;
+    background-image: url(../Assets/Walpaper.jpeg);
+    
+}
+
+.navbar-container{
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-background{
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(20px);
+    height: 10vh;
+    position: relative;
+    top: 0;
+}
+
+.button1 a{
+    color: white;
+    font-family: sans-serif;
+    background-color: #d50000;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.component-1{
+    padding-left: 50px;
+    width: 30%;
+}
+
+.component-3{
+    text-decoration: none;
+    padding-right: 50px;
+    width: 8%;
+}
+
+.component-3 a:hover{
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 8px red, 0 0 8px red;
+}
+
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    padding-right: 320px;
+    font-size: 20px;
+}
+
+.component-2 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.component-2 a:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+}
+
+.judul{
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #b800e6, 0 0 20px #b800e6,
+        0 0 25px #b800e6, 0 0 30px #b800e6, 0 0 35px #b800e6;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #b800e6, 0 0 20px #b800e6,
+        0 0 25px #b800e6, 0 0 30px #b800e6, 0 0 35px #b800e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b800e6,
+        0 0 40px #b800e6, 0 0 50px #b800e6, 0 0 60px #b800e6, 0 0 70px #b800e6;
+    }
+}
+
+.sub-judul{
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.learn{
+    margin-top: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.button-2 button{
+    font-family: sans-serif;
+    color: white;
+    background-color: #d50000;
+    padding: 0.5%;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button-2 button:hover{
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 8px red, 0 0 8px red, 0 0 8px red;
+}
+.button-2 button:focus{
+    outline : none;
+}
+
+.pemisah-1{
+    height: 7vh;
+    background-color: black;
+}
+
+.part-2{
+    background-color: #1d1d1d;
+    height: 500px;
+    margin: 0;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.carousel{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.famous{
+    text-align: center;
+    font-size: 45px;
+    /* font-weight: 800; */
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    /* margin-left: 70px; */
+}
+
+/* Image Slider */
+.frame{
+    border-radius: 50px; 
+    height: 268px;
+    width: 478px;
+    overflow-x: hidden; 
+    padding: 0;
+    border: solid red 5px;
+}
+
+.frame:hover{
+    box-shadow: 0 0 10px red, 0 0 15px red;
+}
+
+.part-2 input{
+    display: none;
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 225px;
+    text-shadow: 0px 0px 10px white,0px 0px 15px white, 0px 0px 20px white;
+}
+
+.slider{
+    width: 100%;
+    height: 268px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.slider-container{
+    width: 500%;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+#slide1{
+    background-image: url(../Assets/Loki.jpg);
+    width: 500px;
+    /* height: 300px; */
+    
+}
+
+#slide2{
+    background-image: url(../Assets/Itaewon.jpg);
+    width: 500px;
+    /* height: 300px; */
+}
+
+#slide3{
+    background-image: url(../Assets/FalconAndWinter.jpg);
+    width: 500px;
+    /* height: 300px; */
+}
+
+#slide4{
+    background-image: url(../Assets/Girlfromnowhere.jpg);
+    width: 500px;
+    background-size: 100% 100%;
+}
+
+#slide5{
+    background-image: url(../Assets/SweetHome.jpg);
+    width: 500px;
+    background-size: 100% 100%;
+}
+
+.left{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 75px;
+    cursor: pointer;
+}
+
+.right{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 75px;
+    cursor: pointer;
+}
+
+.right:hover, .left:hover{
+    text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 475px;
+    justify-content: center;
+    margin-top: 565px;
+}
+
+.navigation-auto div{
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: white;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: white;
+}
+
+.pemisah-2 {
+    height: 7vh;
+    background-color: black;
+} 
+
+.benefits{
+    background-color: #1d1d1d;
+    height: 100px;
+    text-align: center;
+    color: white;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.tulisan{
+    width: 40%;
+    text-align: justify;
+    padding-left: 110px;
+}
+
+.tulisan1{
+    margin-top: -70px;
+}
+
+.tulisanawal{
+    font-weight: bold;
+    color: #d50000;
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.tulisan2{
+    font-family: sans-serif;
+    text-align: 200px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.tulisan3{
+    font-family: sans-serif;
+    text-align: 200px;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.gambar{
+    width: 55%;
+    margin-top: -70px;
+}
+
+.pemisah-3{
+    height: 7vh;
+    background-color: black;
+}
+
+.footer{
+    background-color: #1d1d1d;
+    height: 200px;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.logo-footer{
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+
+.logo-footer2{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+.Quicklink{
+    margin-bottom: 5px;
+}
+
+.Quicklink a{
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.Quicklink a:hover{
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px white;
+}
+
+.logo-footer3{
+    color: white;
+    font-family: sans-serif;
+    width: 25%;
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.contact{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.telepon{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
+.telepon1{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.email{
+    display: flex;
+}
+
+.email img{
+    padding-top: 2px;
+}
+
+.email1{
+    padding-top: 4px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.logo-terahkir{
+    display: table-row;
+    height: 200px;
+}
+
+.logo-terahkir .form{
+    background: #3c3c3c;
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 10px 10px;
+    margin-right: 80px;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.logo-terahkir .form1{
+    background: #3c3c3c;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 20px;
+    padding: 10px 10px;
+    margin-right: 80px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+.logo-terahkir .form1:focus{
+    background: #1a1a1a;
+}
+
+.logo-terahkir .form:focus{
+    background: #1a1a1a;
+}
+
+.button {
+    background: red;
+    color: white;
+    float: right;
+    margin-right: 8.5vw;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background: #800000;
+}
+
+
+
+
+

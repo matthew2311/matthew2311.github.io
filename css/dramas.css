@@ -1,0 +1,673 @@
+body{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.Dramas{
+    height: 150px;
+    background-color: black;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-background{
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(20px);
+    height: 10vh;
+    position: relative;
+    top: 0;
+}
+
+.button1 a{
+    color: white;
+    font-family: sans-serif;
+    background-color: #d50000;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.component-1{
+    padding-left: 50px;
+    width: 30%;
+}
+
+.component-3{
+    text-decoration: none;
+    padding-right: 50px;
+    width: 8%;
+}
+
+.component-3 a:hover{
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 8px red, 0 0 8px red;
+}
+
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    padding-right: 320px;
+    font-size: 20px;
+}
+
+.component-2 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.component-2 a:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+}
+
+.Bagian-2{
+    height: 3000px;
+    background-color: rgb(29, 28, 28);
+}
+
+.drama{
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.drama a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.drama a:hover{
+    color: red;
+}
+
+.Populer{
+    padding-top: 30px;
+    font-size: 40px;
+    color: gold;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.Populer-Background{
+    height: 350px;
+    cursor: pointer;
+    display: flex;
+}
+
+.PopulerMovie1{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/PosterLoki.jpeg);
+    background-size: 100% 100%;
+}
+
+.PopulerMovie1:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.PopulerMovie2{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/PosterFalconAndWinter.jpg);
+    background-size: 100% 100%;
+}
+
+.PopulerMovie2:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.PopulerMovie3{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/PosterItaewon.jpg);
+    background-size: 100% 100%;
+}
+
+.PopulerMovie3:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.PopulerMovie4{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/PosterGirlfromNowhere.jpg);
+    background-size: 100% 100%;
+}
+
+.PopulerMovie4:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.PopulerMovie5{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/PosterSweetHome.jpg);
+    background-size: 100% 100%;
+}
+
+.PopulerMovie5:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.Korean{
+    padding-top: 30px;
+    font-size: 40px;
+    color: gold;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.Korean-Background{
+    height: 350px;
+    cursor: pointer;
+    display: flex;
+}
+
+.KoreanMovie1{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/TheUncannyCounter.jpg);
+    background-size: 100% 100%;
+}
+
+.KoreanMovie1:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.KoreanMovie2{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/The\ Penthouse.jpg);
+    background-size: 100% 100%;
+}
+
+.KoreanMovie2:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.KoreanMovie3{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/StartUp.jpg);
+    background-size: 100% 100%;
+}
+
+.KoreanMovie3:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.KoreanMovie4{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/ItsOkaytoNotBeOkay.jpg);
+    background-size: 100% 100%;
+}
+
+.KoreanMovie4:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.KoreanMovie5{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/RecordofYouth.jpg);
+    background-size: 100% 100%;
+}
+
+.KoreanMovie5:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.Chinese-Background{
+    height: 350px;
+    cursor: pointer;
+    display: flex;
+}   
+
+.Chinese{
+    padding-top: 30px;
+    font-size: 40px;
+    color: gold;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.ChineseMovie1{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Fighting\ Youth.jpg);
+    background-size: 100% 100%;
+}
+
+.ChineseMovie1:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ChineseMovie2{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/LoveScenery.jpg);
+    background-size: 100% 100%;
+}
+
+.ChineseMovie2:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ChineseMovie3{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Unrequited\ Love.png);
+    background-size: 100% 100%;
+}
+
+.ChineseMovie3:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ChineseMovie4{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Count\ Your\ Lucky\ Stars.jpg);
+    background-size: 100% 100%;
+}
+
+.ChineseMovie4:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ChineseMovie5{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Destinys\ Love.jpg);
+    background-size: 100% 100%;
+}
+
+.ChineseMovie5:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.Japan-Background{
+    height: 350px;
+    cursor: pointer;
+    display: flex;
+}   
+
+.Japan{
+    padding-top: 30px;
+    font-size: 40px;
+    color: gold;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.JapanMovie1{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Cinderella\ is\ Online.jpg);
+    background-size: 100% 100%;
+}
+
+.JapanMovie1:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.JapanMovie2{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Renai\ Mangaka.jpg);
+    background-size: 100% 100%;
+}
+
+.JapanMovie2:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.JapanMovie3{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Takane\ no\ Hana-san.jpg);
+    background-size: 100% 100%;
+}
+
+.JapanMovie3:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.JapanMovie4{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Koi\ wa\ Deep\ ni.jpg);
+    background-size: 100% 100%;
+}
+
+.JapanMovie4:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.JapanMovie5{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/3B\ no\ Koibito.jpg);
+    background-size: 100% 100%;
+}
+
+.JapanMovie5:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.pemisah{
+    background: black;
+    height: 50px;
+}
+
+.Thai-Background{
+    height: 350px;
+    cursor: pointer;
+    display: flex;
+}   
+
+.Thai{
+    padding-top: 30px;
+    font-size: 40px;
+    color: gold;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.ThaiMovie1{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/The\ Gifted.png);
+    background-size: 100% 100%;
+}
+
+.ThaiMovie1:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ThaiMovie2{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Kiss\ Me.jpeg);
+    background-size: 100% 100%;
+}
+
+.ThaiMovie2:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ThaiMovie3{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/A\ Tale\ of\ Thousand\ Stars.jpg);
+    background-size: 100% 100%;
+}
+
+.ThaiMovie3:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ThaiMovie4{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Who\ are\ You.jpg);
+    background-size: 100% 100%;
+}
+
+.ThaiMovie4:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ThaiMovie5{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Girl\ Next\ Door.jpg);
+    background-size: 100% 100%;
+}
+
+.ThaiMovie5:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.American{
+    padding-top: 30px;
+    font-size: 40px;
+    color: gold;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.American-Background{
+    height: 350px;
+    cursor: pointer;
+    display: flex;
+}
+
+.AmericanMovie1{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/WandaVision.jpg);
+    background-size: 100% 100%;
+}
+
+.AmericanMovie1:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.AmericanMovie2{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/The\ BlackList.jpg);
+    background-size: 100% 100%;
+}
+
+.AmericanMovie2:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.AmericanMovie3{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/Marvel\ Iron\ Fist.jpg);
+    background-size: 100% 100%;
+}
+
+.AmericanMovie3:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.AmericanMovie4{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/The\ Queens\ Gambit.jpg);
+    background-size: 100% 100%;
+}
+
+.AmericanMovie4:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.AmericanMovie5{
+    margin-left: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px red;
+    background-image: url(../Assets/13\ Reasons\ Why.jpg);
+    background-size: 100% 100%;
+}
+
+.AmericanMovie5:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.ButtonTop{
+    padding: 10px;
+    background-color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 625px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 0 10px red, 0 0 20px red;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        box-shadow: 0 0 10px red, 0 0 20px red;
+    }
+    to{
+        box-shadow: 0 0 20px red, 0 0 30px red;
+    }
+}
+
+.ButtonTop:hover{
+    background-color: #d10404e7;
+    animation: glowhover 1s ease-in-out infinite alternate;
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 270px;
+    text-shadow: 0px 0px 10px white,0px 0px 15px white, 0px 0px 20px white;
+}

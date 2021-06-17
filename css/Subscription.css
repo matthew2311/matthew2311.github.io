@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.Dramas{
+    height: 90px;
+    background-color: black;
+}
+
+
+.navbar-container{
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-background{
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(20px);
+    height: 10vh;
+    position: relative;
+    top: 0;
+}
+
+.button1 a{
+    color: white;
+    font-family: sans-serif;
+    background-color: #d50000;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.component-1{
+    padding-left: 50px;
+    width: 30%;
+}
+
+.component-3{
+    text-decoration: none;
+    padding-right: 50px;
+    width: 8%;
+}
+
+.component-3 a:hover{
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 8px red, 0 0 8px red;
+}
+
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    padding-right: 320px;
+    font-size: 20px;
+}
+
+.component-2 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.component-2 a:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+}
+
+.register{
+    padding-top: 50px;
+    background-color: black;
+    height: 700px;
+}
+
+.background-register{
+    padding-top: 30px;
+    margin: 0px 175px 0px 175px;
+    text-align: left;
+    background-color: rgb(29, 28, 28);
+    width: 1000px;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px red, 0 0 20px red;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        box-shadow: 0 0 10px red, 0 0 15px red, 0 0 20px red;
+    }
+    to{
+        box-shadow: 0 0 15px red, 0 0 20px red, 0 0 25px red;
+    }
+}
+
+.regis{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+.Form{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.form button{
+    color: black;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.form{
+    margin: 75px 150px 75px 250px;
+}
+
+#email{
+    margin-left: 90px;
+    border: none;
+    background-color: #3c3c3c;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#password{
+    margin-left: 40px;
+    border: none;
+    background-color: #3c3c3c;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#mgender{
+    margin-left: 75px;
+}
+
+#fgender{
+    margin-left: 25px;
+}
+
+#plan{
+    margin-left: 10px;
+    border: #3c3c3c;
+    background-color: #3c3c3c;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#agreement{
+    margin-right: 15px;
+}
+
+#textagree{
+    font-size: 20px;
+}
+
+.form button{
+    margin-left: 30px;
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.form button:hover{
+    box-shadow: 0 0 10px white;
+}
+
+
+
+
+
+
