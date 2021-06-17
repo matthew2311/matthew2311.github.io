@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Bagian Header + Navbar */
+.part1{
+    object-fit: cover;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #1d1d1d;
+    
+}
+
+.navbar{
+    background: rgba(185, 183, 183, 0.5);
+    filter: blur(15px);
+    filter: opacity(150%);
+    filter: brightness(150%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button1 a{
+    color: white;
+    font-family: sans-serif;
+    background-color: #d50000;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.component-1{
+    padding-left: 50px;
+    width: 30%;
+}
+
+.component-3{
+    text-decoration: none;
+    padding-left: 450px;
+    width: 8%;
+}
+
+.component-3 a:hover{
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 8px red, 0 0 8px red;
+}
+
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    padding-right: 350px;
+    font-size: 20px;
+}
+
+.lain:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+}
+
+.lain{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.abo{
+    font-weight: bold;
+    color: red;
+    text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.judul{
+    color: red;
+    text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: 70px;
+    font-family: sans-serif;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px #d50000, 0 0 20px #d50000,
+        0 0 25px #d50000, 0 0 30px #d50000, 0 0 35px #d50000;
+    }
+    to {
+      text-shadow: 0 0 10px red, 0 0 20px red, 0 0 25px #d50000,
+        0 0 35px #d50000, 0 0 40px #d50000, 0 0 50px #d50000, 0 0 60px #d50000;
+    }
+}
+
+.sub-judul{
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.learn{
+    margin-top: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.pemisah-1{
+    height: 7vh;
+    background-color: black;
+}
+
+.judul1{
+    color: red;
+    text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
+    padding-top: 150px;
+    text-align: right;
+    margin-right: 100px;
+    font-size: 70px;
+    font-family: sans-serif;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+}
+
+.sub-judul1{
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    margin-right: 100px;
+    font-family: sans-serif;
+}
+
+.part-2{
+    background-color: #1d1d1d;
+    height: 75vh;
+    /* margin-top: -150px; */
+    
+    
+}
+
+.pemisah-2{
+    height: 7vh;
+    background-color: black;
+}
+
+.judul2{
+    color: red;
+    text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
+    padding-top: 150px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: 70px;
+    font-family: sans-serif;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+}
+
+.sub-judul2{
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.part-3{
+    background-color: #1d1d1d;
+    height: 75vh;
+    /* margin-top: -150px; */
+    
+    
+}
+
+.pemisah-3{
+    height: 7vh;
+    background-color: black;
+}
+
+.judul3{
+    color: red;
+    text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
+    padding-top: 150px;
+    text-align: right;
+    margin-right: 100px;
+    font-size: 70px;
+    font-family: sans-serif;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+}
+
+.sub-judul3{
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    margin-right: 100px;
+    font-family: sans-serif;
+}
+
+.part-4{
+    background-color: #1d1d1d;
+    height: 75vh;
+    /* margin-top: -150px; */
+    
+    
+}
+
+.pemisah-4{
+    height: 7vh;
+    background-color: black;
+}
+
+.judul4{
+    color: red;
+    text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
+    padding-top: 150px;
+    text-align: left;
+    margin-left: 100px;
+    font-size: 70px;
+    font-family: sans-serif;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+}
+
+.sub-judul4{
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.part-5{
+    background-color: #1d1d1d;
+    height: 75vh;
+    /* margin-top: -150px; */
+    
+    
+}
+
+/* Responsive */
+
+.navbar .component-2{
+    display: flex;
+
+}
+
+.navbar .component-2 #nav-link{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.navbar .component-2 #nav-link:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+}
+
+.navbar .navbar-toogle{
+    display: none;
+}
+
+@media only screen and (max-width: 900px){
+    .judul{
+        font-size: 60px;
+    }
+
+    .judul1{
+        font-size: 60px;
+    }
+
+    .judul2{
+        font-size: 60px;
+    }
+
+    .judul3{
+        font-size: 60px;
+    }
+
+    .judul4{
+        font-size: 60px;
+    }
+
+    .sub-judul{
+        font-size: 30px;
+    }
+
+    .sub-judul1{
+        font-size: 30px;
+    }
+
+    .sub-judul2{
+        font-size: 30px;
+    }
+
+    .sub-judul3{
+        font-size: 30px;
+    }
+
+    .sub-judul4{
+        font-size: 30px;
+    }
+
+    .navbar{
+        background: rgba(185, 183, 183, 0.5);
+        filter: blur(15px);
+        filter: opacity(150%);
+        filter: brightness(150%);        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .component-1{
+        margin-right: 470px;
+    }
+
+    .navbar-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar-toogle{
+        display: block;
+        padding: 20px;
+    }
+
+    .component-3{
+        padding:  0px 0px 0px 0px;
+    }
+
+    .component-2{
+        display: none;
+        margin: 0px 0px 0px 0px;
+    }
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
+    }
+    
+}
+
