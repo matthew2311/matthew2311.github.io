@@ -791,7 +791,7 @@ html{
         font-size: 10px;
     }
 
-    .Populer, .Korean, .Chinse, .Japan, .Thai, .American{
+    .Populer, .Korean, .Chinese, .Japan, .Thai, .American{
         font-size: 20px;
         margin-left: 10px;
     }
@@ -807,7 +807,7 @@ html{
         width: 100px;
     }
 
-    .AmericanMovie1, .AmericanMovie2, .AmericanMovie3, .AmericanMovie4, .AmericanMovie5{
+    .ThaiMovie1, .ThaiMovie2, .ThaiMovie3, .ThaiMovie4, .ThaiMovie5{
         margin-left: 5px;
         height: 150px;
         width: 100px;
@@ -825,23 +825,32 @@ html{
         width: 100px;
     }
 
-    .ThaiMovie1, .ThaiMovie2, .ThaiMovie3, .ThaiMovie4, .ThaiMovie5{
+    .KoreanMovie1, .KoreanMovie2, .KoreanMovie3, .KoreanMovie4, .KoreanMovie5{
         margin-left: 5px;
         height: 150px;
         width: 100px;
     }
 
-    .ThaiMovie1, .ThaiMovie2, .ThaiMovie3, .ThaiMovie4, .ThaiMovie5{
+    .PopulerMovie1, .PopulerMovie2, .PopulerMovie3, .PopulerMovie4, .PopulerMovie5{
         margin-left: 5px;
         height: 150px;
         width: 100px;
     }
 
     .Bagian-2{
-        height: 2000px;
+        height: 2075px;
     }
 
-    .Japan-Background, .Chinese-Background, .Thai-Background, .American-Background{
+    .Japan-Background, .Chinese-Background, .Thai-Background, .American-Background, .Korean-Background, .Populer-Background{
         height: 250px;
+    }
+
+    .pemisah{
+        height: 20px;
+    }
+
+    .ButtonTop{
+        margin-left: 165px;
+        font-size: 15px;
     }
 }
