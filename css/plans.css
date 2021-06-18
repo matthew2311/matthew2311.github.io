@@ -8,16 +8,9 @@ html{
 
 /* Bagian Header + Navbar */
 .part1{
-    object-fit: cover;
-    height: 160vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    height: 1150px;
     background-color: #1d1d1d;
-    
 }
-
-
 
 .navbar{
     /* position: fixed; */
@@ -29,8 +22,6 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 .button1 a{
     color: white;
@@ -53,9 +44,18 @@ html{
     width: 30%;
 }
 
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 300px;
+    width: 30%;
+    font-size: 20px;
+}
+
 .component-3{
     text-decoration: none;
-    padding-right: 50px;
+    margin-left: 310px;
     width: 8%;
 }
 
@@ -63,16 +63,6 @@ html{
     color: white;
     background-color: black;
     text-shadow: 0 0 8px red, 0 0 8px red;
-}
-
-.component-2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 270px;
-    width: 30%;
-    padding-right: 320px;
-    font-size: 20px;
 }
 
 .lain{
@@ -83,18 +73,10 @@ html{
 
 .abo{
     font-weight: bold;
-    color: black;
-    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+    color: red;
+    text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black;
     text-decoration: none;
     font-family: sans-serif;
-}
-
-
-
-.component-2 a:hover{
-    font-weight: bold;
-    color: black;
-    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
 }
 
 .judul{
@@ -228,28 +210,14 @@ html{
 
 .navbar .component-2{
     display: flex;
-
 }
 
 .navbar .component-2 #nav-link{
-    /* spesifikin classnya supaya bisa reuse classnya dan bisa styling lagi sendiri. */
-    
-    /* Jadi kalo kita ada bikin class baru yg namanya sama, saat kita styling maka yg ini gk ikut terdampak. */
-
-    /* , gunanya buat kayak ngasih tau kalo style itu mau dipake di class yg setelah koma */
-     /* color: white;
-    font-size: 15px; 
-    font-weight: bold;  */
     text-decoration: none;
     padding: 20px;
     display: block;
-    /* display block -> supaya ke apply atas bawahnya */
 }
 .navbar .component-2 #nav-link:hover{
-    /* text-shadow: 0 0 8px #e682ff, 0 0 8px #e682ff, 0 0 8px #e682ff,
-        0 0 8px #e682ff, 0 0 8px #e682ff;
-    animation: glow 1s ease-in-out infinite alternate; */
-
     font-weight: bold;
     color: black;
     text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
@@ -261,15 +229,15 @@ html{
 
 @media only screen and (max-width: 900px){
     .paket-silver{
-        padding: 3%;
+        margin: 10px;
     }
 
     .paket-gold{
-        padding: 4.4%;
+        margin: 10px;
     }
 
     .paket-diamond{
-        padding: 4.4%;
+        margin: 10px;
     }
 
     .navbar{
@@ -283,11 +251,7 @@ html{
     }
     
     .component-1{
-        margin-right: 250px;
-    }
-
-    .component-3{
-        margin-right: 380px;
+        margin-right: 140px;
     }
 
     .navbar-2{
@@ -301,12 +265,96 @@ html{
         padding: 20px;
     }
 
-    .menu{
-        padding-right: 60px;
+    .component-3{
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
     }
 
-    .navbar .component-2{
-        flex-direction: column;
+    .button1 a{
+        font-size: 10px;
+    }
+    
+    .component-2{
         display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
+    }
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .paket{
+        margin-top: 30px;
+    }
+    .paket-silver{
+        margin: 20px 15px;
+    }
+
+    .paket-gold{
+        margin: 20px 15px;
+    }
+
+    .paket-diamond{
+        margin: 20px 15px;
+    }
+
+    .part1{
+        height: 1000px;
+    }
+    
+    .navbar{
+        background: rgba(185, 183, 183, 0.5);
+        filter: blur(15px);
+        filter: opacity(150%);
+        filter: brightness(150%);        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .component-1{
+        margin-right: 140px;
+    }
+
+    .navbar-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar-toogle{
+        display: block;
+        padding: 20px;
+    }
+
+    .component-3{
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
+    }
+
+    .button1 a{
+        font-size: 10px;
+    }
+
+    .component-2{
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
+    }
+
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
     }
 }

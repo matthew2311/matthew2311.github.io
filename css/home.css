@@ -9,20 +9,14 @@ html{
 
 /* Bagian Header + Navbar */
 .part1{
-    object-fit: cover;
     height: 600px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-image: url(../Assets/anime-your-name-hd-wallpaper-preview.jpeg);
-    /* position: sticky; */
-    
 }
 
-
-
 .navbar{
-    /* position: fixed; */
     background: rgba(185, 183, 183, 0.5);
     filter: blur(15px);
     filter: opacity(150%);
@@ -30,10 +24,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
-
-
 
 .button1 a{
     color: white;
@@ -56,9 +47,18 @@ html{
     width: 30%;
 }
 
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 300px;
+    width: 30%;
+    font-size: 20px;
+}
+
 .component-3{
     text-decoration: none;
-    padding-right: 50px;
+    margin-left: 310px;
     width: 8%;
 }
 
@@ -68,27 +68,26 @@ html{
     text-shadow: 0 0 8px red, 0 0 8px red;
 }
 
-.component-2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 270px;
-    width: 30%;
-    padding-right: 320px;
-    font-size: 20px;
+.lain:hover{
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
 }
 
-.component-2 a{
+.lain{
     text-decoration: none;
     font-family: sans-serif;
     color: white;
 }
 
-.component-2 a:hover{
+.abo{
     font-weight: bold;
-    color: black;
-    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
+    color: red;
+    text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black;
+    text-decoration: none;
+    font-family: sans-serif;
 }
+
 
 .judul{
     color: white;
@@ -216,7 +215,6 @@ html{
     height: 268px;
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
 
 .slider-container{
@@ -229,32 +227,26 @@ html{
 #slide1{
     background-image: url(../Assets/Poster-Loki.jpg);
     width: 500px;
-    /* height: 300px; */
-    
 }
 
 #slide2{
     background-image: url(../Assets/Itaewon.jpg);
     width: 500px;
-    /* height: 300px; */
 }
 
 #slide3{
     background-image: url(../Assets/The-Falcon-And-The-Winter-Soldier-Featured.jpg);
     width: 500px;
-    /* height: 300px; */
 }
 
 #slide4{
-    background-image: url(../Assets/Girlfromnowhere.jpg);
+    background-image: url(../Assets/GirlfromNowhere.jpg);
     width: 500px;
-    background-size: 100% 100%;
 }
 
 #slide5{
     background-image: url(../Assets/SweetHome.jpg);
     width: 500px;
-    background-size: 100% 100%;
 }
 
 .left{
@@ -291,7 +283,6 @@ html{
     border-radius: 10px;
     transition: 1s;
 }
-
 
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
@@ -496,7 +487,7 @@ textarea{
     background: #1a1a1a;
 }
 
-.button {
+form .button {
     background: red;
     color: white;
     float: right;
@@ -517,28 +508,14 @@ textarea{
 
 .navbar .component-2{
     display: flex;
-
 }
 
-.navbar .component-2 .nav-link{
-    /* spesifikin classnya supaya bisa reuse classnya dan bisa styling lagi sendiri. */
-    
-    /* Jadi kalo kita ada bikin class baru yg namanya sama, saat kita styling maka yg ini gk ikut terdampak. */
-
-    /* , gunanya buat kayak ngasih tau kalo style itu mau dipake di class yg setelah koma */
-     /* color: white;
-    font-size: 15px; 
-    font-weight: bold;  */
+.navbar .component-2 #nav-link{
     text-decoration: none;
     padding: 20px;
     display: block;
-    /* display block -> supaya ke apply atas bawahnya */
 }
-.navbar .component-2 .nav-link:hover{
-    /* text-shadow: 0 0 8px #e682ff, 0 0 8px #e682ff, 0 0 8px #e682ff,
-        0 0 8px #e682ff, 0 0 8px #e682ff;
-    animation: glow 1s ease-in-out infinite alternate; */
-
+.navbar .component-2 #nav-link:hover{
     font-weight: bold;
     color: black;
     text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
@@ -549,13 +526,6 @@ textarea{
 }
 
 @media only screen and (max-width: 600px){
-    .ipad{
-        width: 200px;
-        height: 200px;
-        margin-top: -120px;
-        margin-left: -250px;
-    }
-
     .benefits{
         height: 500px;
     }
@@ -582,11 +552,7 @@ textarea{
     }
     
     .component-1{
-        margin-right: 250px;
-    }
-
-    .component-3{
-        margin-right: 380px;
+        margin-right: 140px;
     }
 
     .navbar-2{
@@ -600,23 +566,31 @@ textarea{
         padding: 20px;
     }
 
-    .menu{
-        padding-right: 60px;
+    .component-3{
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
     }
 
-    .navbar .component-2{
-        flex-direction: column;
+    .button1 a{
+        font-size: 10px;
+    }
+    .component-2{
         display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
     }
 
-    /* .dropdown .dropdown-menu{
-        position: relative;
-    } */
-
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
+    }
 
     .logo-footer2{
         margin-top: 80px;
-
     }
 
     .logo-footer3{
@@ -659,56 +633,217 @@ textarea{
     
 }
 
-@media only screen and (max-width: 320px){
-    .navigation-auto{
-        margin-bottom: 100px;
+@media only screen and (max-width: 375px){
+    .navbar{
+        background: rgba(185, 183, 183, 0.5);
+        filter: blur(15px);
+        filter: opacity(150%);
+        filter: brightness(150%);        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
-}
+    
+    .component-1{
+        margin-right: 140px;
+    }
 
-@media only screen and (max-width: 1024px){
-    .component-2{
-        margin-left: 150px;
+    .navbar-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar-toogle{
+        display: block;
+        padding: 20px;
     }
 
     .component-3{
-        margin-left: -140px;
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
     }
 
-    .ipad{
-        width: 400px;
-        height: 300px;
+    .button1 a{
+        font-size: 10px;
+    }
+    .component-2{
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
     }
 
-    .form{
-        margin-left: -60px;
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
     }
 
-    .form1{
-        margin-left: -60px;
+    .judul{
+        font-size: 50px;
     }
 
-    .contact{
+    .sub-judul{
+        font-size: 15px;
+    }
+
+    .famous{
+        font-size: 25px;
+    }
+
+    .left, .right{
         font-size: 30px;
     }
 
-    .telepon1{
-        font-size: 20px;
+    .frame{
+        height: 165px;
+        width: 300px;
     }
 
-    .email1{
-        font-size: 20px;
+    #slide1{
+        background-image: url(../Assets/Poster-Loki.jpg);
+        width: 400px;
+    }
+    
+    #slide2{
+        background-image: url(../Assets/Itaewon.jpg);
+        width: 400px;
+    }
+    
+    #slide3{
+        background-image: url(../Assets/The-Falcon-And-The-Winter-Soldier-Featured.jpg);
+        width: 400px;
+    }
+    
+    #slide4{
+        background-image: url(../Assets/GirlfromNowhere.jpg);
+        width: 400px;
+    }
+    
+    #slide5{
+        background-image: url(../Assets/SweetHome.jpg);
+        width: 400px;
     }
 
-    .logo-footer3{
-        margin-left: -80px;
+    .text{
+        margin-top: 115px;
+        font-size: 20px;
+    }
+    
+    .part-2{
+        height: 300px;
     }
 
     .logo-footer2{
-        margin-left: -60px;
+        margin-right: 25px;
     }
 
-    .Quicklink a{
-        font-size: 25px;
+    .navigation-auto{
+        margin-top: 375px;
+    }
+
+    .part1{
+        height: 500px;
+    }
+
+    .carousel{
+        margin-top: 75px;
+    }
+
+    .tulisanawal{
+        font-size: 20px;
+    }
+
+    .benefits{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        height: 50px;
+    }
+    
+    .tulisan{
+        padding-left: 30px;
+    }
+    
+    .tulisan1{
+        margin-top: -50px;
+    }
+    
+    .tulisan1 .tulisanawal{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    
+    .tulisan1 .tulisan2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .tulisan1 .tulisan3{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    
+    .gambar img{
+        background-size: 100% 100%;
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .footer{
+        height: 800px;
+    }
+
+    .footer .logo-footer{
+        margin-right: 35px;
+    }
+
+    .logo-footer img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .Quicklink{
+        margin-bottom: 3px;
+    }
+    
+    .logo-footer3{
+        padding-left: 25px;
+    }
+    
+    .logo-footer3 .contact{
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    
+    .telepon img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .telepon .telepon1{
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+        
+    .email img{
+        height: 25px;
+        width: 30px;
+    }
+    
+    .email1{
+        padding-top: 4px;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    form .button {
+        margin-right: 21.5vw;
+        padding: 10px 20px 10px 20px;
     }
 }
 

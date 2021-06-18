@@ -7,14 +7,10 @@ html{
 }
 
 /* Bagian Header + Navbar */
+
 .part1{
-    object-fit: cover;
-    height: 600px;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    height: 400px;
     background-color: #1d1d1d;
-    
 }
 
 .navbar{
@@ -26,7 +22,6 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-
 
 .button1 a{
     color: white;
@@ -49,9 +44,18 @@ html{
     width: 30%;
 }
 
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 300px;
+    width: 30%;
+    font-size: 20px;
+}
+
 .component-3{
     text-decoration: none;
-    padding-left: 450px;
+    margin-left: 310px;
     width: 8%;
 }
 
@@ -59,15 +63,6 @@ html{
     color: white;
     background-color: black;
     text-shadow: 0 0 8px red, 0 0 8px red;
-}
-
-.component-2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 30%;
-    padding-right: 350px;
-    font-size: 20px;
 }
 
 .lain:hover{
@@ -93,12 +88,11 @@ html{
 .judul{
     color: red;
     text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: left;
     margin-left: 100px;
     font-size: 70px;
     font-family: sans-serif;
-    /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
 @keyframes glow {
@@ -128,23 +122,21 @@ html{
 }
 
 .pemisah-1{
-    height: 7vh;
+    height: 10px;
     background-color: black;
 }
 
 .judul1{
     color: red;
     text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: right;
     margin-right: 100px;
     font-size: 70px;
     font-family: sans-serif;
-    /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
 .sub-judul1{
-    /* margin-top: 30px; */
     padding-top: 30px;
     font-size: 40px;
     color: white;
@@ -155,30 +147,25 @@ html{
 
 .part-2{
     background-color: #1d1d1d;
-    height: 75vh;
-    /* margin-top: -150px; */
-    
-    
+    height: 300px;
 }
 
 .pemisah-2{
-    height: 7vh;
+    height: 10px;
     background-color: black;
 }
 
 .judul2{
     color: red;
     text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: left;
     margin-left: 100px;
     font-size: 70px;
     font-family: sans-serif;
-    /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
 .sub-judul2{
-    /* margin-top: 30px; */
     padding-top: 30px;
     font-size: 40px;
     color: white;
@@ -189,30 +176,25 @@ html{
 
 .part-3{
     background-color: #1d1d1d;
-    height: 75vh;
-    /* margin-top: -150px; */
-    
-    
+    height: 300px;
 }
 
 .pemisah-3{
-    height: 7vh;
+    height: 10px;
     background-color: black;
 }
 
 .judul3{
     color: red;
     text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: right;
     margin-right: 100px;
     font-size: 70px;
     font-family: sans-serif;
-    /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
 .sub-judul3{
-    /* margin-top: 30px; */
     padding-top: 30px;
     font-size: 40px;
     color: white;
@@ -223,21 +205,18 @@ html{
 
 .part-4{
     background-color: #1d1d1d;
-    height: 75vh;
-    /* margin-top: -150px; */
-    
-    
+    height: 300px;    
 }
 
 .pemisah-4{
-    height: 7vh;
+    height: 10px;
     background-color: black;
 }
 
 .judul4{
     color: red;
     text-shadow: 0 0 10px black, 0 0 15px red, 0 0 20px red;;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: left;
     margin-left: 100px;
     font-size: 70px;
@@ -257,10 +236,7 @@ html{
 
 .part-5{
     background-color: #1d1d1d;
-    height: 75vh;
-    /* margin-top: -150px; */
-    
-    
+    height: 300px;
 }
 
 /* Responsive */
@@ -359,6 +335,139 @@ html{
         display: none;
         margin: 0px 0px 0px 0px;
     }
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
+    }
+    
+}
+
+@media only screen and (max-width: 375px){
+    .part1{
+        height: 300px;
+    }
+    .part-2, .part-3, .part-4, .part-5{
+        height: 150px;
+    }
+
+    .judul{
+        margin: 0px;
+        padding: 40px 5px 15px 0px;
+        margin-left: 35px;
+        font-size: 30px;
+    }
+
+    .judul1{
+        margin: 0px;
+        padding: 25px 5px 15px 0px;
+        margin-right: 35px;
+        font-size: 30px;
+    }
+
+    .judul2{
+        margin: 0px;
+        padding: 25px 5px 15px 0px;
+        margin-left: 35px;
+        font-size: 30px;
+    }
+
+    .judul3{
+        margin: 0px;
+        padding: 25px 5px 15px 0px;
+        margin-right: 35px;
+        font-size: 30px;
+    }
+
+    .judul4{
+        margin: 0px;
+        padding: 25px 5px 15px 0px;
+        margin-left: 35px;
+        font-size: 30px;
+    }
+
+    .sub-judul{
+        padding: 0px;
+        padding-left: 40px;
+        padding-right: 30px;
+        margin: 10px 5px 10px 0px;
+        font-size: 15px;
+    }
+
+    .sub-judul1{
+        padding: 0px;
+        padding-left: 10px;
+        padding-right: 40px;
+        margin: 10px 5px 10px 0px;
+        font-size: 15px;
+    }
+
+    .sub-judul2{
+        padding: 0px;
+        padding-left: 40px;
+        padding-right: 30px;
+        margin: 10px 5px 10px 0px;
+        font-size: 15px;
+    }
+
+    .sub-judul3{
+        padding: 0px;
+        padding-left: 10px;
+        padding-right: 40px;
+        margin: 10px 5px 10px 0px;
+        font-size: 15px;
+    }
+
+    .sub-judul4{
+        padding: 0px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 10px 5px 10px 0px;
+        font-size: 15px;
+    }
+
+    .navbar{
+        background: rgba(185, 183, 183, 0.5);
+        filter: blur(15px);
+        filter: opacity(150%);
+        filter: brightness(150%);        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .component-1{
+        margin-right: 140px;
+    }
+
+    .navbar-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar-toogle{
+        display: block;
+        padding: 20px;
+    }
+
+    .component-3{
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
+    }
+
+    .button1 a{
+        font-size: 10px;
+    }
+    .component-2{
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
+    }
+
     .component-3 a:hover{
         color: white;
         background-color: black;

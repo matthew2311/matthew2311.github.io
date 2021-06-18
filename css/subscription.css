@@ -7,18 +7,10 @@ html{
 }
 
 /* Navbar */
-.Dramas{
-    object-fit: cover;
+.part1{
     height: 90px;
     background-color: black;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-
 }
-
-
-
 
 .navbar{
     background: rgba(185, 183, 183, 0.5);
@@ -33,7 +25,7 @@ html{
 .button1 a{
     color: red;
     font-family: sans-serif;
-    background-color: #d50000;
+    background-color: black;
     border-radius: 10px;
     width: 120px;
     height: 30px;
@@ -44,7 +36,6 @@ html{
     cursor: pointer;
     font-weight: bold;
     font-size: 15px;
-    font-weight: bold;
     text-shadow: 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black, 0 0 8px black;
 }
 
@@ -53,9 +44,18 @@ html{
     width: 30%;
 }
 
+.component-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 300px;
+    width: 30%;
+    font-size: 20px;
+}
+
 .component-3{
     text-decoration: none;
-    padding-left: 450px;
+    margin-left: 310px;
     width: 8%;
 }
 
@@ -63,21 +63,6 @@ html{
     color: white;
     background-color: black;
     text-shadow: 0 0 8px red, 0 0 8px red;
-}
-
-.component-2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 30%;
-    padding-right: 350px;
-    font-size: 20px;
-}
-
-.lain:hover{
-    font-weight: bold;
-    color: black;
-    text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
 }
 
 .lain{
@@ -89,7 +74,7 @@ html{
 .register{
     padding-top: 50px;
     background-color: black;
-    height: 700px;
+    height: 650px;
 }
 
 .background-register{
@@ -98,7 +83,7 @@ html{
     text-align: left;
     background-color: rgb(29, 28, 28);
     width: 1000px;
-    height: 600px;
+    height: 550px;
     border-radius: 50px;
     box-shadow: 0 0 10px red, 0 0 20px red;
     animation: glow 1s ease-in-out infinite alternate;
@@ -140,7 +125,7 @@ html{
 
 .form{
     margin: 75px;
-    padding-left: 180px;
+    margin-left: 250px;
 }
 
 #email{
@@ -209,13 +194,12 @@ html{
     display: flex;
 }
 
-.navbar .component-2 .nav-link{
+.navbar .component-2 #nav-link{
     text-decoration: none;
     padding: 20px;
     display: block;
 }
-
-.navbar .component-2 .nav-link:hover{
+.navbar .component-2 #nav-link:hover{
     font-weight: bold;
     color: black;
     text-shadow: 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 0 0 8px white;
@@ -237,7 +221,7 @@ html{
     }
     
     .component-1{
-        margin-right: 470px;
+        margin-right: 140px;
     }
 
     .navbar-2{
@@ -251,26 +235,23 @@ html{
         padding: 20px;
     }
 
-    .menu{
-        padding-right: 60px;
-    }
-
-    /* .navbar .component-{
-        flex-direction: column;
-        display: none;
-        margin: 0 0 0 0 ;
-        margin-right: 600px;
-        /* margin-bottom: 10px; */ 
-    
     .component-3{
-        padding:  0px 0px 0px 0px;
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
     }
 
+    .button1 a{
+        font-size: 10px;
+    }
+    
     .component-2{
         display: none;
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
     }
-
     .component-3 a:hover{
         color: white;
         background-color: black;
@@ -293,6 +274,149 @@ html{
     .form{
         margin: 0 0 0 0;
         padding: 0 0 0 75px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .part1{
+        height: 250px;
+    }
+    
+    .navbar{
+        background: rgba(185, 183, 183, 0.5);
+        filter: blur(15px);
+        filter: opacity(150%);
+        filter: brightness(150%);        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .component-1{
+        margin-right: 140px;
+    }
+
+    .navbar-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar-toogle{
+        display: block;
+        padding: 20px;
+    }
+
+    .component-3{
+        padding: 0px;
+        padding-right: 250px;
+        margin: 5px;
+    }
+
+    .button1 a{
+        font-size: 10px;
+    }
+
+    .component-2{
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 10px;
+    }
+
+    .component-3 a:hover{
+        color: white;
+        background-color: black;
+        text-shadow: 0 0 8px red, 0 0 8px red;
+    }
+
+    .background-register{
+        margin: 0;
+        margin-left: 40px;
+        width: 300px;
+        height: 350px;
+        margin-right: 25px;
+    }
+
+    .regis{
+        font-size: 20px;
+    }
+
+    .register{
+        width: 400px;
+        height: 450px;
+    }
+
+    .form{
+        margin: 0;
+        padding: 0 30px 0 35px;
+    }
+
+    .Form{
+        padding: 0 0 0 0;
+        margin: 0 15px 0 0;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    #email{
+        margin-left: 38px;
+        border: none;
+        background-color: #3c3c3c;
+        width: 100px;
+        height: 3px;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    #password{
+        margin-left: 10px;
+        border: none;
+        background-color: #3c3c3c;
+        width: 100px;
+        height: 3px;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    #mgender{
+        margin-left: 30px;
+    }
+    
+    #fgender{
+        margin-left: 3px;
+    }
+    
+    #plan{
+        margin-left: 10px;
+        border: #3c3c3c;
+        background-color: #3c3c3c;
+        width: 100px;
+        padding: 1px;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    
+    #agreement{
+        margin-right: 5px;
+    }
+    
+    .textagree{
+        font-size: 15px;
+    }
+    
+    .form button{
+        margin-left: 2px;
+        border: 5px solid black;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin-top: 20px;
+        border-radius: 10px;
     }
 }
 
