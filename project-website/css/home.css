@@ -63,5 +63,32 @@
   .content{
     margin-left: 100px;
     margin-right: 100px;
-    text-align: center;
+    text-align:justify;
+    width: 50%;
+  }
+
+  .accordion-item{
+    border-radius: 15px !important;
+    border: none;
+    color: white;
+    background-color: var(--bs-body-color);
+  }
+
+  .accordion-flush .accordion-item .accordion-button{
+    border-radius: 15px !important;
+    
+  }
+
+  .accordion-flush{
+    margin-left: 250px;
+    padding-right: 250px;
+  }
+
+  .full-video{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .rounded-circle:hover{
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
   }
