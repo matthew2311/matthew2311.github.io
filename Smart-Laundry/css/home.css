@@ -1,0 +1,46 @@
+body{
+    font-family: 'Open Sauce One',sans-serif !important;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+  
+.test{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../assets/Background.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.gambar{
+	height: 500px;
+}
+
+.teks{
+	margin-top: 100px !important;
+}
+
+header{
+	background-color: white;
+}
+
+.card{
+	--bs-card-border-radius: 15px !important;
+}
+
+.gambar-2{
+	border-top-left-radius: 15px; border-top-right-radius: 15px;
+	height: 300px;
+}
+
+.card-text{
+	font-weight: bold;
+}
+
+.row{
+	margin-right: 0 !important;
+}
